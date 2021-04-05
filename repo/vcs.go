@@ -12,12 +12,12 @@ import (
 	"sort"
 	"strings"
 
-	cp "github.com/Masterminds/glide/cache"
-	"github.com/Masterminds/glide/cfg"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
-	"github.com/Masterminds/semver"
-	v "github.com/Masterminds/vcs"
+	cp "github.com/andrewlunde/glide/cache"
+	"github.com/andrewlunde/glide/cfg"
+	"github.com/andrewlunde/glide/msg"
+	gpath "github.com/andrewlunde/glide/path"
+	"github.com/andrewlunde/semver"
+	v "github.com/andrewlunde/vcs"
 )
 
 // VcsUpdate updates to a particular checkout based on the VCS setting.

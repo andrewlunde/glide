@@ -25,7 +25,7 @@ clean:
 	rm -rf ./dist
 
 bootstrap-dist:
-	${GLIDE_GO_EXECUTABLE} get -u github.com/Masterminds/gox
+	${GLIDE_GO_EXECUTABLE} get -u github.com/andrewlunde/gox
 
 build-all:
 	gox -verbose \

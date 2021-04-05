@@ -1,5 +1,5 @@
 # The name of this package.
-package: github.com/Masterminds/glide
+package: github.com/andrewlunde/glide
 
 # External dependencies.
 import:
@@ -13,8 +13,8 @@ import:
   # Full definition
   # This will check out the given Git repo, set the version to master,
   # use "git" (not "go get") to manage it, and alias the package to the
-  # import path github.com/Masterminds/cookoo
-  - package: github.com/Masterminds/cookoo
+  # import path github.com/andrewlunde/cookoo
+  - package: github.com/andrewlunde/cookoo
     vcs: git
     version: master
     repo: git@github.com:Masterminds/cookoo.git
@@ -42,7 +42,7 @@ import:
     vcs: bzr
     repo: bzr://bzr.example.com/foo/bar/trunk
     # The version can be a branch, tag, commit id, or a semantic version
-    # constraint parsable by https://github.com/Masterminds/semver
+    # constraint parsable by https://github.com/andrewlunde/semver
     version: 1.0.0
 
   - package: hg.example.com/foo/bar
