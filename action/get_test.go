@@ -21,13 +21,13 @@ func TestAddPkgsToConfig(t *testing.T) {
 
 	names := []string{
 		"github.com/andrewlunde/cookoo/fmt",
-		"github.com/andrewlunde/semver",
+		"github.com/Masterminds/semver",
 	}
 
 	addPkgsToConfig(conf, names, false, true, false)
 
-	if !conf.HasDependency("github.com/andrewlunde/semver") {
-		t.Error("addPkgsToConfig failed to add github.com/andrewlunde/semver")
+	if !conf.HasDependency("github.com/Masterminds/semver") {
+		t.Error("addPkgsToConfig failed to add github.com/Masterminds/semver")
 	}
 
 	d := conf.Imports.Get("github.com/andrewlunde/cookoo")

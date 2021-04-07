@@ -16,7 +16,7 @@ func TestVCSLookup(t *testing.T) {
 		t    Type
 	}{
 		"https://github.com/andrewlunde":                                   {work: false, t: Git},
-		"https://github.com/andrewlunde/VCSTestRepo":                       {work: true, t: Git},
+		"https://github.com/Masterminds/vcsTestRepo":                       {work: true, t: Git},
 		"https://bitbucket.org/mattfarina/testhgrepo":                      {work: true, t: Hg},
 		"https://bitbucket.org/mattfarina/repo-does-not-exist":             {work: false, t: Hg},
 		"https://bitbucket.org/mattfarina/private-repo-for-vcs-testing":    {work: false, t: Hg},

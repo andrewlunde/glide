@@ -25,7 +25,7 @@ using that instead of Glide. Glide is now mostly unmaintained.
 
 * Ease dependency management
 * Support **versioning packages** including [Semantic Versioning
-  2.0.0](http://semver.org/) support. Any constraint the [`github.com/andrewlunde/semver`](https://github.com/andrewlunde/semver)
+  2.0.0](http://semver.org/) support. Any constraint the [`github.com/Masterminds/semver`](https://github.com/Masterminds/semver)
   package can parse can be used.
 * Support **aliasing packages** (e.g. for working with github forks)
 * Remove the need for munging import statements
@@ -161,8 +161,8 @@ $ glide create
 [INFO]	Generating a YAML configuration file and guessing the dependencies
 [INFO]	Attempting to import from other package managers (use --skip-import to skip)
 [INFO]	Scanning code to look for dependencies
-[INFO]	--> Found reference to github.com/andrewlunde/semver
-[INFO]	--> Found reference to github.com/andrewlunde/vcs
+[INFO]	--> Found reference to github.com/Masterminds/semver
+[INFO]	--> Found reference to github.com/Masterminds/vcs
 [INFO]	--> Found reference to github.com/urfave/cli
 [INFO]	--> Found reference to gopkg.in/yaml.v2
 [INFO]	Writing configuration file (glide.yaml)
@@ -275,28 +275,28 @@ github.com/andrewlunde/glide
 			github.com/andrewlunde/cookoo/io   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/andrewlunde/cookoo/io)
 		github.com/andrewlunde/glide/gb   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/gb)
 		github.com/andrewlunde/glide/util   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/util)
-			github.com/andrewlunde/vcs   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/andrewlunde/vcs)
+			github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/Masterminds/vcs)
 		github.com/andrewlunde/glide/yaml   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/yaml)
 			github.com/andrewlunde/glide/util   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/util)
-				github.com/andrewlunde/vcs   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/andrewlunde/vcs)
-			github.com/andrewlunde/vcs   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/andrewlunde/vcs)
+				github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/Masterminds/vcs)
+			github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/Masterminds/vcs)
 			gopkg.in/yaml.v2   (/Users/mfarina/Code/go/src/gopkg.in/yaml.v2)
-		github.com/andrewlunde/semver   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/andrewlunde/semver)
-		github.com/andrewlunde/vcs   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/andrewlunde/vcs)
+		github.com/Masterminds/semver   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/Masterminds/semver)
+		github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/Masterminds/vcs)
 		github.com/urfave/cli   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/urfave/cli)
 	github.com/urfave/cli   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/urfave/cli)
 	github.com/andrewlunde/cookoo   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/andrewlunde/cookoo)
 		github.com/andrewlunde/cookoo/io   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/andrewlunde/cookoo/io)
 	github.com/andrewlunde/glide/gb   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/gb)
 	github.com/andrewlunde/glide/util   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/util)
-		github.com/andrewlunde/vcs   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/andrewlunde/vcs)
+		github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/Masterminds/vcs)
 	github.com/andrewlunde/glide/yaml   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/yaml)
 		github.com/andrewlunde/glide/util   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/util)
-			github.com/andrewlunde/vcs   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/andrewlunde/vcs)
-		github.com/andrewlunde/vcs   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/andrewlunde/vcs)
+			github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/Masterminds/vcs)
+		github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/Masterminds/vcs)
 		gopkg.in/yaml.v2   (/Users/mfarina/Code/go/src/gopkg.in/yaml.v2)
-	github.com/andrewlunde/semver   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/andrewlunde/semver)
-	github.com/andrewlunde/vcs   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/andrewlunde/vcs)
+	github.com/Masterminds/semver   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/Masterminds/semver)
+	github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/Masterminds/vcs)
 	github.com/urfave/cli   (/Users/mfarina/Code/go/src/github.com/andrewlunde/glide/vendor/github.com/urfave/cli)
 ```
 
@@ -319,8 +319,8 @@ INSTALLED packages:
 	vendor/github.com/andrewlunde/cookoo/fmt
 	vendor/github.com/andrewlunde/cookoo/io
 	vendor/github.com/andrewlunde/cookoo/web
-	vendor/github.com/andrewlunde/semver
-	vendor/github.com/andrewlunde/vcs
+	vendor/github.com/Masterminds/semver
+	vendor/github.com/Masterminds/vcs
 	vendor/github.com/urfave/cli
 	vendor/gopkg.in/yaml.v2
 ```
@@ -356,7 +356,7 @@ A brief `glide.yaml` file looks like this:
 ```yaml
 package: github.com/andrewlunde/glide
 import:
-  - package: github.com/andrewlunde/semver
+  - package: github.com/Masterminds/semver
   - package: github.com/andrewlunde/cookoo
     version: ^1.2.0
     repo: git@github.com:Masterminds/cookoo.git
@@ -377,7 +377,7 @@ that `package` and `repo` can be completely different)
 
 **TIP:** The version is either VCS dependent and can be anything that can be checked
 out or a semantic version constraint that can be parsed by the [`github.com/
-Masterminds/semver`](https://github.com/andrewlunde/semver) package.
+Masterminds/semver`](https://github.com/Masterminds/semver) package.
 For example, with Git this can be a branch, tag, or hash. This varies and
 depends on what's supported in the VCS.
 
@@ -389,7 +389,7 @@ importing a package, not a subpackage name. For example, use
 ## Supported Version Control Systems
 
 The Git, SVN, Mercurial (Hg), and Bzr source control systems are supported. This
-happens through the [vcs package](https://github.com/andrewlunde/vcs).
+happens through the [vcs package](https://github.com/Masterminds/vcs).
 
 ## Frequently Asked Questions (F.A.Q.)
 
@@ -405,7 +405,7 @@ information.
 #### Q: bzr (or hg) is not working the way I expected. Why?
 
 These are works in progress, and may need some additional tuning. Please
-take a look at the [vcs package](https://github.com/andrewlunde/vcs). If you
+take a look at the [vcs package](https://github.com/Masterminds/vcs). If you
 see a better way to handle it please let us know.
 
 #### Q: Should I check `vendor/` into version control?

@@ -11,8 +11,8 @@ import (
 	"github.com/andrewlunde/glide/cfg"
 	"github.com/andrewlunde/glide/msg"
 	gpath "github.com/andrewlunde/glide/path"
-	"github.com/andrewlunde/semver"
-	"github.com/andrewlunde/vcs"
+	"github.com/Masterminds/semver"
+	"github.com/Masterminds/vcs"
 )
 
 // ConfigWizard reads configuration from a glide.yaml file and attempts to suggest

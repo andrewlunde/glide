@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/andrewlunde/glide/msg"
-	"github.com/andrewlunde/semver"
+	"github.com/Masterminds/semver"
 )
 
 // Provide an in memory cache of imported project information.

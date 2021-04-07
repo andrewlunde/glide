@@ -1,5 +1,5 @@
-package: github.com/andrewlunde/vcs
-homepage: https://github.com/andrewlunde/vcs
+package: github.com/Masterminds/vcs
+homepage: https://github.com/Masterminds/vcs
 license: MIT
 owners:
 - name: Matt Farina

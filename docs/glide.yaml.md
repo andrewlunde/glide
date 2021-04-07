@@ -18,13 +18,13 @@ The `glide.yaml` file contains information about the project and the dependent p
     - node_modules
     import:
     - package: gopkg.in/yaml.v2
-    - package: github.com/andrewlunde/vcs
+    - package: github.com/Masterminds/vcs
       version: ^1.2.0
       repo:    git@github.com:Masterminds/vcs
       vcs:     git
     - package: github.com/urfave/cli
       version: f89effe81c1ece9c5b0fda359ebd9cf65f169a51
-    - package: github.com/andrewlunde/semver
+    - package: github.com/Masterminds/semver
       version: ^1.0.0
     testImport:
     - package: github.com/arschles/assert

@@ -12,7 +12,7 @@ import (
 	gpath "github.com/andrewlunde/glide/path"
 	"github.com/andrewlunde/glide/repo"
 	"github.com/andrewlunde/glide/util"
-	"github.com/andrewlunde/semver"
+	"github.com/Masterminds/semver"
 )
 
 // Get fetches one or more dependencies and installs.

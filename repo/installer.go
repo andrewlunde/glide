@@ -18,8 +18,8 @@ import (
 	"github.com/andrewlunde/glide/msg"
 	gpath "github.com/andrewlunde/glide/path"
 	"github.com/andrewlunde/glide/util"
-	"github.com/andrewlunde/semver"
-	"github.com/andrewlunde/vcs"
+	"github.com/Masterminds/semver"
+	"github.com/Masterminds/vcs"
 	"github.com/urfave/cli"
 )
 

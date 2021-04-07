@@ -10,7 +10,7 @@ import (
 
 	"github.com/andrewlunde/glide/mirrors"
 	"github.com/andrewlunde/glide/util"
-	"github.com/andrewlunde/vcs"
+	"github.com/Masterminds/vcs"
 	"gopkg.in/yaml.v2"
 )
 

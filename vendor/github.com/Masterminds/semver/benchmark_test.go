@@ -3,7 +3,7 @@ package semver_test
 import (
 	"testing"
 
-	"github.com/andrewlunde/semver"
+	"github.com/Masterminds/semver"
 )
 
 /* Constraint creation benchmarks */

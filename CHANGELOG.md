@@ -138,8 +138,8 @@ to be supporting builds for it at this time.
   This is to conform with other Go tools that require this.
 - #501: Updating the plugins documentation and adding listing
 - #500: Log an error if stripping version control data fails (thanks @alexbrand)
-- #496: Updated to github.com/andrewlunde/semver 1.1.1
-- #495: Updated to github.com/andrewlunde/vcs 1.8.0
+- #496: Updated to github.com/Masterminds/semver 1.1.1
+- #495: Updated to github.com/Masterminds/vcs 1.8.0
 - #494: Glide install skips fetch when it is up to date
 - #489: Make shared funcs for lockfile usage (thanks @heewa)
 - #459: When a conflict occurs output the tag, if one exists, for the commit
@@ -381,7 +381,7 @@ previous releases.**
   no vendor directory. Use the --no-recursive flag to skip this.
 - Removed GOPATH management. This was needed for vendor package
   management that's not built into the go toolchain.
-- Switched to github.com/andrewlunde/vcs for VCS integration.
+- Switched to github.com/Masterminds/vcs for VCS integration.
 - When updating packages are now deleted if the --delete flag is set.
   This feature is now opt-in.
 - Fixed #32: Detects VCS type and endpoint changes along with a --force flag

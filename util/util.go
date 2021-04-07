@@ -13,7 +13,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/andrewlunde/vcs"
+	"github.com/Masterminds/vcs"
 )
 
 // ResolveCurrent selects whether the package should only the dependencies for

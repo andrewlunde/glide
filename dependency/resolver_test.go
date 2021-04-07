@@ -21,8 +21,8 @@ func TestResolveLocalShallow(t *testing.T) {
 	}
 
 	expect := []string{
-		filepath.FromSlash("github.com/andrewlunde/semver"),
-		filepath.FromSlash("github.com/andrewlunde/vcs"),
+		filepath.FromSlash("github.com/Masterminds/semver"),
+		filepath.FromSlash("github.com/Masterminds/vcs"),
 		filepath.FromSlash("gopkg.in/yaml.v2"),
 		filepath.FromSlash("github.com/urfave/cli"),
 	}
@@ -86,8 +86,8 @@ func TestResolveAll(t *testing.T) {
 	// These are build dependencies of Glide, so we know they are here.
 	deps := []*cfg.Dependency{
 		{Name: "github.com/urfave/cli"},
-		{Name: "github.com/andrewlunde/semver"},
-		{Name: "github.com/andrewlunde/vcs"},
+		{Name: "github.com/Masterminds/semver"},
+		{Name: "github.com/Masterminds/vcs"},
 		{Name: "gopkg.in/yaml.v2"},
 	}
 

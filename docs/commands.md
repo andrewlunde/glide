@@ -14,8 +14,8 @@ they are specified with another package manager or not.
     [INFO]	Generating a YAML configuration file and guessing the dependencies
     [INFO]	Attempting to import from other package managers (use --skip-import to skip)
     [INFO]	Scanning code to look for dependencies
-    [INFO]	--> Found reference to github.com/andrewlunde/semver
-    [INFO]	--> Found reference to github.com/andrewlunde/vcs
+    [INFO]	--> Found reference to github.com/Masterminds/semver
+    [INFO]	--> Found reference to github.com/Masterminds/vcs
     [INFO]	--> Found reference to github.com/urfave/cli
     [INFO]	--> Found reference to gopkg.in/yaml.v2
     [INFO]	Writing configuration file (glide.yaml)
@@ -108,8 +108,8 @@ Glide's `list` command shows an alphabetized list of all the packages that a pro
     	vendor/github.com/andrewlunde/cookoo/fmt
     	vendor/github.com/andrewlunde/cookoo/io
     	vendor/github.com/andrewlunde/cookoo/web
-    	vendor/github.com/andrewlunde/semver
-    	vendor/github.com/andrewlunde/vcs
+    	vendor/github.com/Masterminds/semver
+    	vendor/github.com/Masterminds/vcs
     	vendor/github.com/urfave/cli
     	vendor/gopkg.in/yaml.v2
 
